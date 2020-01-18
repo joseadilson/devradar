@@ -11,7 +11,7 @@ module.exports = {
       techs: {
         $in: techsArray
       },
-      location: {
+      loc: {
         $near: {
           $geometry: {
             type: "Point",
